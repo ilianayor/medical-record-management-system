@@ -17,12 +17,9 @@ A Spring Boot web application for managing patient medical records, doctors, dia
 
 ## Getting Started
 
-1. Clone the repository  
+1. Clone the repository, configure database, and run:  
    ```bash
    git clone https://github.com/ilianayor/medical-record-management-system.git
    cd medical-record-management-system
-
-2. Configure the database connection in application.properties
-3. Run the application
-```bash
-    ./mvnw spring-boot:run
+   # Edit application.properties to configure your database
+   ./mvnw spring-boot:run
